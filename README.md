@@ -1,5 +1,5 @@
 # PROGRAMMING-SKILL-SCORE-PREDICTION
-### TABLE OF CONTENTS ###
+## TABLE OF CONTENTS ##
 *	Introdution
 *	Data preprocessing
 *	Clustering
@@ -7,18 +7,18 @@
 *	RNN model
 *	Ranking model
 *	Result
-INTRODUCTION:
+## INTRODUCTION: ##
          The programming capability of students is measured based on two factors that is their interest and ability to learn and their performance in assessments. We use  efficient algorithm to calculate the score in each step.
-DATA PREPROCESSING :
+## DATA PREPROCESSING : ##
           The given data is organized as per the requirement and  divided in to assessment data and study data. The assessment data consists of datas like number of tests attended,score in each test, number od questions in each test ,programming language used ,etc,. The study data consits of number of learning videos seen, number of practice tests attended and score in each practice test. Data cleaning and Attribute selection is done to organized the data as shown in fig 1.1 .
  
 Fig 1.1
-BASIC FLOW 
+## BASIC FLOW ##
  
 Fig 1.2
-CLUSTERING:
+## CLUSTERING: ##
            The assessment data is clustered  based on the programming language used by the student. K-means clustering is used to cluster the data. 
-Steps involved:
+ teps involved: ###
 	Creating and populating working tables
 	Initializing K-means
 	Computing Euclidean distance
