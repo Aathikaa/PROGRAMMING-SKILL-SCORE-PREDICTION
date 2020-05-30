@@ -13,12 +13,16 @@ The programming capability of students is measured based on two factors that is 
 The given data is organized as per the requirement and  divided in to assessment data and study data. The assessment data consists of datas like number of tests attended,score in each test, number od questions in each test ,programming language used ,etc,. The study data consits of number of learning videos seen, number of practice tests attended and score in each practice test. Data cleaning and Attribute selection is done to organized the data as shown in fig 1.1 .
  ![](images/fig1.1.png)
 <p align="center">
-  #### Fig 1.1 #### 
+  Fig 1.1 
 </p>
 
 ## BASIC FLOW ##
- ![Fig 1.2](images/fig1.2.png)
-#### Fig 1.2 ####
+ ![](images/fig1.2.png)
+
+<p align="center">
+  Fig 1.2 
+</p>
+
 ## CLUSTERING: ##
 The assessment data is clustered  based on the programming language used by the student. K-means clustering is used to cluster the data. 
 ### Steps involved: ###
@@ -30,7 +34,10 @@ The assessment data is clustered  based on the programming language used by the 
 
 ![](images/fig1.3.png)
 
-#### Fig 1.3 ####
+<p align="center">
+  Fig 1.3
+</p>
+
 ### Reason for choosing K-means clustering: ###
 1.	Relatively simple to implement.
 2.	Scales to large data sets.
@@ -47,11 +54,19 @@ Each question data in the cluster is fed to the decision tree for calculating ea
 *	A Decision trees model is very intuitive and easy to explain to technical teams as well as stakeholders.
 
   ![](images/fig1.4.png)
-#### Fig 1.4 ####
+  
+<p align="center">
+  Fig 1.4
+</p>
+
 ## RNN MODEL: ##
 The study data of the student is fed to the RNN model to calculate the score based on the students study pattern and practice test scores. This model is used to measure the learning capacity of the students. Analysing the learning capacity of the student is equally important for calculating the skill score. Basic RNN architecture is shown in fig 1.5.
   ![](images/fig1.5.png)
-#### Fig 1.5 ####
+
+<p align="center">
+  Fig 1.5
+</p>
+
 ### Reason for choosing RNN: ###
 *	RNN can process inputs of any length.
 *	An RNN model is modelled to remember each information throughout the time which is very helpful in any time series predictor.
