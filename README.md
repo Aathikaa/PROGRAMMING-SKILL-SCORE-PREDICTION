@@ -24,7 +24,7 @@ The assessment data is clustered  based on the programming language used by the 
 *	Computing Euclidean distance
 *	Finding the nearest centroid
 *	Updating clustering results
- 
+  ![](images/fig1.3.png)
 #### Fig 1.3 ####
 ### Reason for choosing K-means clustering: ###
 1.	Relatively simple to implement.
@@ -32,7 +32,7 @@ The assessment data is clustered  based on the programming language used by the 
 3.	Guarantees convergence.
 4.	Generalizes to clusters of different shapes and sizes, such as elliptical clusters.
 ## RULE EXTRACTION: ##
-           Each question data in the cluster is fed to the decision tree for calculating each question score. A decision tree is a decision support tool that uses a tree-like graph or model of decisions and their possible consequences, including chance event outcomes, resource costs, and utility. First the questions are classified as coding and MCQ questions . Then fed to the decision tree for calculating the score. Average score is calculated at last for further calculations. The decision tree is constructed as shown in Fig 1.4.
+Each question data in the cluster is fed to the decision tree for calculating each question score. A decision tree is a decision support tool that uses a tree-like graph or model of decisions and their possible consequences, including chance event outcomes, resource costs, and utility. First the questions are classified as coding and MCQ questions . Then fed to the decision tree for calculating the score. Average score is calculated at last for further calculations. The decision tree is constructed as shown in Fig 1.4.
 
 ### Reasoning for choosing decision tree: ###
 *	Compared to other algorithms decision trees requires less effort for data preparation during pre-processing.
@@ -41,11 +41,11 @@ The assessment data is clustered  based on the programming language used by the 
 *	Missing values in the data also does NOT affect the process of building decision tree to any considerable extent.
 *	A Decision trees model is very intuitive and easy to explain to technical teams as well as stakeholders.
 
- 
+  ![](images/fig1.4.png)
 #### Fig 1.4 ####
 ## RNN MODEL: ##
-          The study data of the student is fed to the RNN model to calculate the score based on the students study pattern and practice test scores. This model is used to measure the learning capacity of the students. Analysing the learning capacity of the student is equally important for calculating the skill score. Basic RNN architecture is shown in fig 1.5.
- 
+The study data of the student is fed to the RNN model to calculate the score based on the students study pattern and practice test scores. This model is used to measure the learning capacity of the students. Analysing the learning capacity of the student is equally important for calculating the skill score. Basic RNN architecture is shown in fig 1.5.
+  ![](images/fig1.5.png)
 #### Fig 1.5 ####
 ### Reason for choosing RNN: ###
 *	RNN can process inputs of any length.
@@ -54,8 +54,8 @@ The assessment data is clustered  based on the programming language used by the 
 *	The weights can be shared across the time steps.
 
 ## RANKING MODEL: ##
-         The average decision tree scores, total number of questions attended by the student in assessments in each programming language and score calculated by RNN based on the learning capacity is given as input to the ranking model to list the programming languages based on the students efficiency with the final skill score for each language.
+The average decision tree scores, total number of questions attended by the student in assessments in each programming language and score calculated by RNN based on the learning capacity is given as input to the ranking model to list the programming languages based on the students efficiency with the final skill score for each language.
 
 ## RESULT : ##
-        The ability to predict an individual’s potential to learn programming concepts is important for many reasons . The extracted rules confirm the important’ s of variables such as difficulty level ,time taken and learning ability. Accurate and comprehensible solution is obtained with less time complexity. The final results of the ranking model is normalized and the skill score for each language is displayed in percentage.
+The ability to predict an individual’s potential to learn programming concepts is important for many reasons . The extracted rules confirm the important’ s of variables such as difficulty level ,time taken and learning ability. Accurate and comprehensible solution is obtained with less time complexity. The final results of the ranking model is normalized and the skill score for each language is displayed in percentage.
 
