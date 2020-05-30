@@ -78,4 +78,9 @@ The average decision tree scores, total number of questions attended by the stud
 
 ## RESULT : ##
 The ability to predict an individual’s potential to learn programming concepts is important for many reasons . The extracted rules confirm the important’ s of variables such as difficulty level ,time taken and learning ability. Accurate and comprehensible solution is obtained with less time complexity. The final results of the ranking model is normalized and the skill score for each language is displayed in percentage.
-
+## Reference 
+* https://link.springer.com/article/10.1186/s41039-018-0075-y
+* https://pdfs.semanticscholar.org/eadc/78702c1ccb894dfb7a619c2143ef3868f2d5.pdf
+* https://github.com/tarunshah/Student-Analysis
+* https://www.researchgate.net/publication/259520005_Calculation_of_average_coding_efficiency_based_on_subjective_quality_scores
+* https://www.researchgate.net/publication/261268264_Predicting_Students'_Performance_in_an_Introductory_Programming_Course_Using_Data_from_Students'_Own_Programming_Process
