@@ -12,7 +12,9 @@ The programming capability of students is measured based on two factors that is 
 ## DATA PREPROCESSING : ##
 The given data is organized as per the requirement and  divided in to assessment data and study data. The assessment data consists of datas like number of tests attended,score in each test, number od questions in each test ,programming language used ,etc,. The study data consits of number of learning videos seen, number of practice tests attended and score in each practice test. Data cleaning and Attribute selection is done to organized the data as shown in fig 1.1 .
  ![Fig 1.1](images/fig1.1.png)
-#### Fig 1.1 ####
+<p align="center">
+  #### Fig 1.1 ####
+</p>
 ## BASIC FLOW ##
  ![Fig 1.2](images/fig1.2.png)
 #### Fig 1.2 ####
