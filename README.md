@@ -33,7 +33,6 @@ The assessment data is clustered  based on the programming language used by the 
 *	Updating clustering results
 
 ![](images/fig1.3.png)
-
 <p align="center">
   Fig 1.3
 </p>
