@@ -24,7 +24,7 @@ The assessment data is clustered  based on the programming language used by the 
 *	Computing Euclidean distance
 *	Finding the nearest centroid
 *	Updating clustering results
-  ![](images/fig1.3.png)
+![](images/fig1.3.png)
 #### Fig 1.3 ####
 ### Reason for choosing K-means clustering: ###
 1.	Relatively simple to implement.
