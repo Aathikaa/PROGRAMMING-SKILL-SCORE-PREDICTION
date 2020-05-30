@@ -14,7 +14,7 @@ The given data is organized as per the requirement and  divided in to assessment
  ![Fig 1.1](images/fig1.1.png)
 #### Fig 1.1 ####
 ## BASIC FLOW ##
- 
+ ![Fig 1.2](images/fig1.2.png)
 #### Fig 1.2 ####
 ## CLUSTERING: ##
 The assessment data is clustered  based on the programming language used by the student. K-means clustering is used to cluster the data. 
