@@ -17,7 +17,7 @@ The given data is organized as per the requirement and  divided in to assessment
 </p>
 
 ## BASIC FLOW ##
- ![](images/fig1.2.png)
+ <p align="center"> ![](images/fig1.2.png)  </p>
 
 <p align="center">
   Fig 1.2 
