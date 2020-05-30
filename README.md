@@ -1,12 +1,12 @@
 # PROGRAMMING-SKILL-SCORE-PREDICTION
 ### TABLE OF CONTENTS ###
-•	Introdution
-•	Data preprocessing
-•	Clustering
-•	Rule extraction
-•	RNN model
-•	Ranking model
-•	Result
+*	Introdution
+*	Data preprocessing
+*	Clustering
+*	Rule extraction
+*	RNN model
+*	Ranking model
+*	Result
 INTRODUCTION:
          The programming capability of students is measured based on two factors that is their interest and ability to learn and their performance in assessments. We use  efficient algorithm to calculate the score in each step.
 DATA PREPROCESSING :
